@@ -1,0 +1,13 @@
+{
+  "script":{
+    "build": "rm -rf dist && parcel build src/index.html --no-minify --public-url ./"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0"
+  },
+  "name": "mvc-demo-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "River <moonquakes7@gmail.com>",
+  "license": "MIT"
+}
