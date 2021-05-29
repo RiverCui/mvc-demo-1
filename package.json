@@ -1,9 +1,10 @@
 {
-  "script":{
+  "scripts": {
     "build": "rm -rf dist && parcel build src/index.html --no-minify --public-url ./"
   },
   "dependencies": {
-    "jquery": "^3.6.0"
+    "jquery": "^3.6.0",
+    "vue": "^2.6.12"
   },
   "name": "mvc-demo-1",
   "version": "1.0.0",
